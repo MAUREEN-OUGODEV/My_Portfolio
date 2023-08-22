@@ -1,0 +1,14 @@
+.image img{
+    margin: 5%;
+    height: 800px;
+    width: 800px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px rgb(90, 90, 212);
+
+}
+.wave{
+    height: 20px;
+}
+.word{
+    display: flex;
+}
