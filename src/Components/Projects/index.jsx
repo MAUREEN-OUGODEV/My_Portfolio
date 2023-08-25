@@ -5,6 +5,7 @@ import Food from '../../images/FoodFiesta.png';
 import Movie from '../../images/movie_app.png';
 import Score from '../../images/scoreboard.png';
 import Ting from '../../images/TingTang.png';
+import Doctor from '../../images/doctor.png'
 import './style.css';
 
 const Project = () => {
@@ -77,7 +78,20 @@ const Project = () => {
           </div>
           <a href='https://github.com/MAUREEN-OUGODEV/Farm_project'>
             <div className='project-description'>
-              {/* ... */}
+             
+            </div>
+            <button className="rounded-full bg-sky-500/75 p-5 bg-cyan-500 shadow-lg shadow-cyan-500/50 mt-8 rounded-full text-white">Read more</button>
+          </a>
+        </div>
+        <div className="project-card p-4">
+          <div className="Project_img">
+            <img src={Doctor} className="rounded-lg h-80 w-90 object-cover" alt='' />
+            <div className="hover-text">"Stay Ahead of the Game with Real-time Insights: Check Out Our Interactive Scoreboard for the Latest Updates, Statistics, and Results.
+             Your Ultimate Destination for Staying Informed and Engaged!"</div>
+          </div>
+          <a href='https://github.com/MAUREEN-OUGODEV/Demensia'>
+            <div className='project-description'>
+             
             </div>
             <button className="rounded-full bg-sky-500/75 p-5 bg-cyan-500 shadow-lg shadow-cyan-500/50 mt-8 rounded-full text-white">Read more</button>
           </a>
